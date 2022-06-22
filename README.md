@@ -17,10 +17,11 @@ In this version && and || are recognized by the Lexer but not accepted by the Pa
 The compiler take the input program from the "program.lft" file. After the compilation process, if no errors are reported, an Output.class will be generated.
 After your program is wrote, follow these steps (java commands):
 1) javac Translator.java (compile the "Translator.java file)
-2) java -jar jasmin.jar Output.j (generte the Output.class file by using the Jasmin library)
-3) java Output (run the Output.class file)
+2) java Translator (run the compiler)
+3) java -jar jasmin.jar Output.j (generte the Output.class file by using the Jasmin library)
+4) java Output (run the Output.class file)
 
-(Maybe i'll upload a build.xml file to automate these three steps)
+(Maybe i'll upload a build.xml file to automate these four steps)
 
 ![scheme](https://user-images.githubusercontent.com/40024835/174924726-30a630e8-071d-419e-8190-b1871d020e92.png)
 
