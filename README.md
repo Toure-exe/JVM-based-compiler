@@ -13,7 +13,7 @@ In this version && and || are recognized by the Lexer but not accepted by the Pa
 
 ![tokens](https://user-images.githubusercontent.com/40024835/174922084-b591d02a-455f-4f60-bb8d-f4a38d969746.png)
 
-## Instructions
+## Usage instructions
 The compiler take the input program from the "program.lft" file. After the compilation process, if no errors are reported, an Output.class will be generated.
 After your program is wrote, follow these steps (java commands):
 1) javac Translator.java (compile the "Translator.java file)
@@ -22,7 +22,7 @@ After your program is wrote, follow these steps (java commands):
 
 (Maybe i'll upload a build.xml file to automate these three steps)
 
-## Code exemples
+## Some code exemples
 
 
 ```
