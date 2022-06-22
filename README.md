@@ -16,7 +16,7 @@ In this version && and || are recognized by the Lexer but not accepted by the Pa
 ## Usage instructions
 The compiler take the input program from the "program.lft" file. After the compilation process, if no errors are reported, an Output.class will be generated.
 After your program is wrote, follow these steps (java commands):
-1) javac Translator.java (compile the "Translator.java file)
+1) javac Translator.java (compile the "Translator.java" file)
 2) java Translator (run the compiler)
 3) java -jar jasmin.jar Output.j (generte the Output.class file by using the Jasmin library)
 4) java Output (run the Output.class file)
