@@ -1,10 +1,16 @@
 # JVM-based-compiler
 Compiler for a simple programming language that runs over the Java Virtual Machine.
 The language contains basic arithmetic operations and input/output functions. Variables aren't explicitly declared and every arithmetic operations, assignment and conditions use the polish notation.
+Lexer.java read all Tokens and check if they are valid (aka it's implements an lexical analysis). 
+Translator.java implements the syntax analysis by using the recursive descent parser alhotritm.
 
 ## Context Free Grammar (CFG)
 
 ![CFG](https://user-images.githubusercontent.com/40024835/174915959-c2fb8ead-456f-4c2f-a5c4-b92c9dd64df6.png)
+
+## Token list
+In this version && and || are recognized by the Lexer but not accepted by the Parser.
+![tokens](https://user-images.githubusercontent.com/40024835/174922084-b591d02a-455f-4f60-bb8d-f4a38d969746.png)
 
 ## Instructions
 The compiler take the input program from the "program.lft" file. After the compilation process, if no errors are reported, an Output.class will be generated.
