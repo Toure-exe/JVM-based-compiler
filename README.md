@@ -1,12 +1,13 @@
 # JVM-based-compiler
-compiler for a simple programming language that runs over the Java Virtual Machine.
+Compiler for a simple programming language that runs over the Java Virtual Machine.
+The language contains basic arithmetic operations and input and output functions. Variables aren't explicitly declared, and every arithmetic operations and conditions use the polish notation.
 
 ## Context Free Grammar (CFG)
 ![CFG](https://user-images.githubusercontent.com/40024835/174915959-c2fb8ead-456f-4c2f-a5c4-b92c9dd64df6.png)
 
 ## Instructions
 The compiler take the input program from the "program.lft" file, after the compilation process, if no errors are reported, an Output.class file that will run on the JVM.
-After your program is wrote, follow those steps:
+After your program is wrote, follow these steps:
 1) javac Translator.java (compile the "Translator.java file)
 2) java -jar jasmin.jar Output.j (generte the Output.class file by using the Jasmin library)
 3)  java Output (run the Output.class file)
@@ -36,6 +37,48 @@ cond
 print(a b c d);
 print(i)
 ```
+
+```
+/*inzializare 3 variabili x y e z con lettura da tastiera
+ successivamente confrontare che le x sia minore di y
+ se non lo e incremento in un ciclo while la x fino ad arrivare al valore di y 
+ dopo di che verifico che x sia nimore di z e in quel caso creo un ciclo while che incremente la x di 1 fino ad arrivare a z*/
+read(x);
+read(y);
+read(z);
+
+while(< x y)
+    = x +(x 1);
+
+while(< x z)
+    = x +(x 1);
+
+print(x y z)
+```
+
+```
+/*3 variabili x,y,z, se x < y, si incrementa x fino a y, se y e' minore di z si decrementa la z fino a y, stampando x, y, z*/
+
+read(x);
+read(y);
+read(z);
+    cond  when(< x y) do
+            while(< x y){
+                 = x +(x 1)
+           }
+    else print(x);
+       cond  when(< y z)  do
+             while(< y z){
+                = z - z 1
+            }
+    else print(z);
+
+
+    print(x);
+    print(y);
+    print(z)
+```
+
 
 ```
 //  print testing
