@@ -17,29 +17,6 @@ After your program is wrote, follow these steps (java commands):
 
 ## Code exemples
 
-```
-/*prendi 4 numeri a b c d se a e maggiore di 
-c e d metti in un a variabile i a*b, altirmenti incrementi 
-b e c fino a che non raggiungono il valore di a*/
-
-read(a); // the read function take value from the keyboard
-read(b);
-read(c);
-read(d);
-= i 0; // this is an assignment (in java it would be i = 0;)
-
-cond 
-    when(&&(< c a)(< d a)) do = i *(a b)
-       else{    
-               while(< b a)
-                = b +(b 1);
-               while(< c a)
-                = c +(c 1)
-       };
-    
-print(a b c d);
-print(i)
-```
 
 ```
 /*inzializare 3 variabili x y e z con lettura da tastiera
