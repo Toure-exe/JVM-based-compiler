@@ -22,6 +22,8 @@ After your program is wrote, follow these steps (java commands):
 
 (Maybe i'll upload a build.xml file to automate these three steps)
 
+![scheme](https://user-images.githubusercontent.com/40024835/174924726-30a630e8-071d-419e-8190-b1871d020e92.png)
+
 ## Some code exemples
 
 
