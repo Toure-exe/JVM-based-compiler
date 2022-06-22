@@ -6,7 +6,7 @@ The language contains basic arithmetic operations and input and output functions
 ![CFG](https://user-images.githubusercontent.com/40024835/174915959-c2fb8ead-456f-4c2f-a5c4-b92c9dd64df6.png)
 
 ## Instructions
-The compiler take the input program from the "program.lft" file, after the compilation process, if no errors are reported, an Output.class file that will run on the JVM.
+The compiler take the input program from the "program.lft" file. After the compilation process, if no errors are reported, an Output.class will be generated.
 After your program is wrote, follow these steps:
 1) javac Translator.java (compile the "Translator.java file)
 2) java -jar jasmin.jar Output.j (generte the Output.class file by using the Jasmin library)
