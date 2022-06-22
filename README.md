@@ -79,3 +79,19 @@ print(+(2 - 7 3)); //6
 print(+(/ 10 2 3)); //8
 print(+(5 - 7 3 10)) //19
 ```
+
+```
+// factorial algorith
+
+read(n);
+= i 2;
+= f 1;
+while (<= i n){
+   = f *(f i);
+   = i +(i 1)
+};
+print(f)
+
+
+```
+
