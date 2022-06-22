@@ -10,6 +10,7 @@ Translator.java implements the syntax analysis by using the recursive descent pa
 
 ## Token list
 In this version && and || are recognized by the Lexer but not accepted by the Parser.
+
 ![tokens](https://user-images.githubusercontent.com/40024835/174922084-b591d02a-455f-4f60-bb8d-f4a38d969746.png)
 
 ## Instructions
