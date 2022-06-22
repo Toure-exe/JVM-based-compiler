@@ -83,7 +83,7 @@ print(+(5 - 7 3 10)) //19
 ```
 
 ```
-// factorial algorith
+// factorial algorithm
 
 read(n);
 = i 2;
