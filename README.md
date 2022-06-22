@@ -3,7 +3,9 @@ Compiler for a simple programming language that runs over the Java Virtual Machi
 The language contains basic arithmetic operations and input/output functions. Variables aren't explicitly declared, and every arithmetic operations, assignment and conditions use the polish notation.
 
 ## Context Free Grammar (CFG)
+<center>
 ![CFG](https://user-images.githubusercontent.com/40024835/174915959-c2fb8ead-456f-4c2f-a5c4-b92c9dd64df6.png)
+</center>
 
 ## Instructions
 The compiler take the input program from the "program.lft" file. After the compilation process, if no errors are reported, an Output.class will be generated.
