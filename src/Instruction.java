@@ -77,7 +77,7 @@ public class Instruction{
             case label: 
 				temp = "L" + operand + ":\n"; 
 				break;
-			case noOP:
+			case noOp:
 				break;
         }
     return temp;
