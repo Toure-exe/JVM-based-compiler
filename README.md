@@ -1,8 +1,8 @@
 # JVM-based-compiler
 Compiler for a simple programming language that runs over the Java Virtual Machine.
 The language contains basic arithmetic operations and input/output functions. Variables aren't explicitly declared and every arithmetic operations, assignment and conditions use the polish notation.
-Lexer.java read all Tokens and check if they are valid (aka it's implements an lexical analysis). 
-Translator.java implements the syntax analysis by using the recursive descent parser alhotritm.
+Lexer.java read all Tokens and check if they are valid (it's implements an lexical analysis). 
+Translator.java implements the syntax analysis by using the recursive descent parser algorithm.
 
 ## Context Free Grammar (CFG)
 
