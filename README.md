@@ -8,7 +8,7 @@ Translator.java implements the syntax analysis by using the recursive descent pa
 
 ![CFG](https://user-images.githubusercontent.com/40024835/174915959-c2fb8ead-456f-4c2f-a5c4-b92c9dd64df6.png)
 
-## Pseudo code of the Recursive Descent Parser Algorithm
+## Pseudo-code of the Recursive Descent Parser Algorithm
 wikipedia: https://en.wikipedia.org/wiki/Recursive_descent_parser
 
 ![parsing_rd](https://user-images.githubusercontent.com/40024835/181624662-d159a3fd-7c1b-4066-8427-f685cfc765ad.png)
