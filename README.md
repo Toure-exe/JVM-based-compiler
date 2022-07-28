@@ -15,6 +15,8 @@ In this version && and || are recognized by the Lexer but not accepted by the Pa
 
 ## Usage instructions
 The compiler take the input program from the "program.lft" file. After the compilation process, if no errors are reported, an Output.class will be generated.
+
+Instructions set: https://en.wikipedia.org/wiki/List_of_Java_bytecode_instructions <br>
 After your program is wrote, follow these steps (java commands):
 1) javac Translator.java (compile the "Translator.java" file)
 2) java Translator (run the compiler)
