@@ -13,10 +13,11 @@ In this version && and || are recognized by the Lexer but not accepted by the Pa
 
 ![tokens](https://user-images.githubusercontent.com/40024835/174922084-b591d02a-455f-4f60-bb8d-f4a38d969746.png)
 
+### instructions set
+wikipedia (JVM): https://en.wikipedia.org/wiki/List_of_Java_bytecode_instructions
+
 ## Usage instructions
 The compiler take the input program from the "program.lft" file. After the compilation process, if no errors are reported, an Output.class will be generated.
-
-Instructions set: https://en.wikipedia.org/wiki/List_of_Java_bytecode_instructions <br>
 After your program is wrote, follow these steps (java commands):
 1) javac Translator.java (compile the "Translator.java" file)
 2) java Translator (run the compiler)
