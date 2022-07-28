@@ -8,11 +8,13 @@ Translator.java implements the syntax analysis by using the recursive descent pa
 
 ![CFG](https://user-images.githubusercontent.com/40024835/174915959-c2fb8ead-456f-4c2f-a5c4-b92c9dd64df6.png)
 
-## Recursive Descent Parser Algorithm
+## Pseudo code of the Recursive Descent Parser Algorithm
+wikipedia: https://en.wikipedia.org/wiki/Recursive_descent_parser
 
 ![parsing_rd](https://user-images.githubusercontent.com/40024835/181624662-d159a3fd-7c1b-4066-8427-f685cfc765ad.png)
 
-### "GUIDA" function
+### - the "GUIDA" function
+about FIRST & FOLLOW: https://www.gatevidyalay.com/first-and-follow-compiler-design/
 ![guide](https://user-images.githubusercontent.com/40024835/181624825-f6dac413-0d65-4eb9-afe1-e512fb580038.png)
 
 ## Token table
